@@ -1,0 +1,69 @@
+.navbar-toggler {
+    color: #dfdfdf !important;
+}
+
+.navbar-toggler-icon {
+    color: #dfdfdf !important;
+    background-color: #000000;
+}
+
+.btn {
+    &.discord {
+        border-radius: 25px !important;
+        transition: transform 0.3s ease, text-shadow 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &.normas {
+        background-color: #cbe6ff57;
+        border: 2px solid #cbe6ff;
+        border-radius: 15px !important;
+        transition: transform 0.3s ease, text-shadow 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.enlancesbuttonfooter {
+    background-color: #cbe6ff57;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.08);
+        cursor: pointer;
+    }
+}
+
+.enlancescolor {
+
+    text-decoration: none !important;
+    color: #ffff !important;
+    font-family: $font-2 !important;
+}
+
+
+.DiscordInapro {
+    background-color: #0044ff94 !important;
+    color: #ffff !important;
+    font-weight: bold !important;
+    border-radius: 25px !important;
+    padding: 5px !important;
+    text-decoration: none !important;
+}
+
+.tiendanormasmute {
+    background-color: #cfa90094 !important;
+    color: #ffff !important;
+    font-weight: bold !important;
+    border-radius: 25px !important;
+    padding: 5px !important;
+    text-decoration: none !important;
+}

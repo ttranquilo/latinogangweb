@@ -1,0 +1,123 @@
+.footerr {
+    margin-top: 100px !important;
+    background-color: #cbe6ff60;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    animation: slideUp 1s ease-in-out;
+}
+
+.footernormas {
+    background-color: #cbe6ff60;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    animation: slideUp 1s ease-in-out;
+}
+.footer-content {
+    font-size: 18px;
+}
+
+.linefooter {
+    border-left: 1px solid #cbe6ff; /* Estilo de la línea vertical */
+    height: 390px; /* Altura igual a la altura de las columnas */
+    color: #ffffff00;
+    margin-right: 32px;
+}
+
+
+.col-md-4 {
+    &.footer {
+        background: #cbe6ff57;
+        padding: 17px !important;
+        border-radius: 25px;
+        border: 2px solid #cbe6ff;
+    }
+}
+
+.col-md-3 {
+    &.footer {
+        background: #cbe6ff57;
+        padding: 15px !important;
+        border-radius: 25px;
+        border: 2px solid #cbe6ff;
+    }
+}
+
+.linenelances {
+    color: transparent;
+    width: 63%;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 99px;
+}
+
+
+.letramagicafooter {
+        font-family: $font-2;
+        font-size: 23px;
+        font-weight: bold;
+        transition: transform 0.3s ease, text-shadow 0.3s ease;
+        text-shadow:
+            0 0 10px #ffffff,
+            0 0 20px #0044aa,
+            0 0 30px #ffffff,
+            0 0 40px #ffffff,
+            0 0 50px #0044aa,
+            0 0 60px #ffffff,
+            0 0 70px #0044aa,
+            0 0 80px #ffffff;
+
+        &:hover {
+            transform: scale(1.1);
+            text-shadow:
+                0 0 10px #ffffff,
+                0 0 20px #0044aa,
+                0 0 30px #ffffff,
+                0 0 40px #ffffff,
+                0 0 50px #0044aa,
+                0 0 60px #ffffff,
+                0 0 70px #0044aa,
+                0 0 80px #ffffff;
+        }
+}
+
+
+.copyr {   
+    font-family: $font-2;
+    font-weight: bold;
+    font-size: 13px !important;
+    position: absolute;
+    float: left;
+    margin-left: 15px;
+    top: 80%;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    z-index: 15 !important;
+    cursor: default !important;
+    text-shadow:
+        0 0 10px #ffffff,
+        0 0 20px #0044aa,
+        0 0 30px #ffffff,
+        0 0 40px #ffffff,
+        0 0 50px #0044aa,
+        0 0 60px #ffffff,
+        0 0 70px #0044aa,
+        0 0 80px #ffffff;
+
+    &:hover {
+        cursor: default !important;
+        z-index: 15 !important;
+        transform: scale(1.1);
+        text-shadow:
+            0 0 10px #ffffff,
+            0 0 20px #0044aa,
+            0 0 30px #ffffff,
+            0 0 40px #ffffff,
+            0 0 50px #0044aa,
+            0 0 60px #ffffff,
+            0 0 70px #0044aa,
+            0 0 80px #ffffff;
+    }
+}

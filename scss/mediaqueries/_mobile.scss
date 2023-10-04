@@ -1,0 +1,179 @@
+@media screen and (max-width: 767px) {
+
+
+
+    .categoriaitems {
+        color: #ffffff;
+    }
+
+    .linefooter {
+        display: none !important;
+    }
+
+
+    .discordiframe {
+        display: none !important;
+    }
+
+    .img-fluid {
+        &.logofooter {
+            display: none;
+        }
+    }
+
+    .imagenlogo {
+        justify-content: center !important;
+        align-self: center;
+        align-content: center;
+        border-radius: 25px !important;
+        z-index: 999 !important;
+    }
+
+    .btn {
+        &.normas {
+            width: 100% ;
+        }
+    }
+
+
+    .card {
+        width: 100% !important;
+
+        &.server {
+            display: none;
+        }
+    }
+
+
+    .nav-link {
+
+        &:active {
+            color: #ffffff !important;
+        }
+
+    }
+
+    .navbar {
+        position: fixed;
+        background: rgb(0, 0, 0) !important;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.596) 100%) !important;
+        z-index: 9999 !important;
+        width: 100%;
+    }
+
+
+
+    .iniciobuton {
+        color: #ffffff !important;
+        font-family: $font-1;
+        font-size: 32px;
+        text-shadow:
+            0 0 10px #ffffff,
+            0 0 20px #0044aa,
+            0 0 30px #ffffff,
+            0 0 40px #ffffff,
+            0 0 50px #0044aa,
+            0 0 60px #ffffff,
+            0 0 70px #0044aa,
+            0 0 80px #ffffff;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #ffffff !important;
+        border-radius: 15px !important;
+        text-shadow:
+            0 0 10px #ffffff,
+            0 0 20px #0044aa,
+            0 0 30px #ffffff,
+            0 0 40px #ffffff,
+            0 0 50px #0044aa,
+            0 0 60px #ffffff,
+            0 0 70px #0044aa,
+            0 0 80px #ffffff;
+    }
+
+    .fa-compass {
+        font-size: 23px !important;
+        text-shadow:
+            0 0 10px #ffffff,
+            0 0 20px #0044aa,
+            0 0 30px #ffffff,
+            0 0 40px #ffffff,
+            0 0 50px #0044aa,
+            0 0 60px #ffffff,
+            0 0 70px #0044aa,
+            0 0 80px #ffffff;
+        color: #ffffff;
+    }
+
+    .linenav {
+        display: none !important;
+    }
+
+    .novercelularlatinogang {
+        display: none !important;
+    }
+
+    .inicionone {
+        display: none !important;
+    }
+
+    body {
+        background: url('../img/fondoescritorio.jpg') no-repeat center center fixed !important;
+        background-size: cover;
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+
+        /* Do not repeat the image */
+        .dark-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba(0, 0, 0, 0.356);
+            /* Color de fondo oscuro con opacidad */
+        }
+    }
+
+
+    .stevepensando {
+        display: none;
+    }
+
+    .copyr{
+        display: none;
+    }
+
+
+
+    .row {
+        &.footer {
+            justify-content: center !important;
+            text-align: center !important;
+            align-items: center !important;
+        }
+    }
+
+    .col-md-3{
+
+        &.footer {
+            &.mobil {
+
+                margin-bottom: 10px !important;
+            }
+        }
+    }  
+
+    .dontdisplaymobil {
+        display: none;
+    }
+
+    .linehr {
+        margin-bottom: 38px;
+    }
+     
+
+}

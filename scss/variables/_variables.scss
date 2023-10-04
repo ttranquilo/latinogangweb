@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@font-face {
+    font-family: 'Dark Crystal';
+    src: url('../fonts/dc_o.ttf') format('truetype');
+    /* Ajusta la ruta al archivo de la fuente y el formato según corresponda */
+  }
+
+$font-1: 'Dark Crystal', serif;  
+$font-2: 'Cinzel', serif;

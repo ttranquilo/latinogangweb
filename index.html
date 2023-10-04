@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Servidor Minecraft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="dark-overlay"></div>
+    <header>
+
+
+        <nav class="navbar navbar-expand-md mx-auto">
+            <a class="navbar-brand d-md-none ms-4 iniciobuton" href="#">LatinoGang</a>
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-regular fa-compass"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto justify-content-center d-flex align-items-center text-center p-2">
+                    <li class="nav-item inicionone padinstart">
+                        <a class="nav-link categoriaitems" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item padinstart">
+                        <a class="nav-link categoriaitems" href="./pages/normas.html">Normas</a>
+                    </li>
+                    <li class="nav-item padinstart">
+                        <a class="nav-link categoriaitems" href="./pages/Tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item padinstart novercelularlatinogang">
+                        <a class="nav-link latinogangitem">LatinoGang</a>
+                    </li>
+                    <li class="nav-item padinstart">
+                        <a class="nav-link categoriaitems" href="./pages/Ranking.html">Ranking</a>
+                    </li>
+                    <li class="nav-item padinstart">
+                        <a class="nav-link categoriaitems" href="./pages/Sanciones.html">Sanciones</a>
+                    </li>
+                    <li class="nav-item padinstart">
+                        <a class="nav-link categoriaitems" href="./pages/Apelar.html">Apelar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <div class="container d-flex align-items-center mx-auto justify-content-center">
+            <img src="./img/logo.png" class="img-fluid imagenlogo slide-in-top" alt="">
+        </div>
+    </header>
+
+    <div class="container discordiff float-start ratio ratio-16x9 position-absolute slide-in-fwd-left">
+        <iframe src="https://discordapp.com/widget?id=828781296243310652&theme=dark" class="discordiframe"
+            allowtransparency="true"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </div>
+
+    <div class="card server ratio ratio-16x9 position-absolute top-50 end-0 text-center slide-in-fwd-right">
+        <div class="card-body text-center mx-auto justify-content-center">
+            <h5 class="card-title server">Estado del Servidor</h5>
+            <p class="card-text server">¡Verifica cuántos jugadores están en línea en este momento!</p>
+            <div class="progress server mt-4 mb-3">
+                <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated server"
+                    role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="250">0/250
+                </div>
+            </div>
+            <h6 id="serverIP" class="card-subtitle server mb-2 mt-1">latgang.net</h6>
+            <div id="copiedAlert" class="alert server alert-success alert-dismissible fade text-center mt-3"
+                role="alert">
+                ¡IP Copiada!
+            </div>
+        </div>
+    </div>
+
+    <div class="container principal mt-4 mx-auto justify-content-center d-flex">
+        <div class="card principal w-75 text-center justify-content-center slide-in-fwd-center">
+            <h5 class="card-title principal text-center p-3">¡El Comienzo de una Nueva Etapa!</h5>
+            <img src="./img/post1.jpg" class="card-img principal d-flex justify-content-center mx-auto" alt="...">
+            <div class="card-body">
+                <p class="card-text principal">¡Saludos a todos los Miembros de la comunidad LatinoGang!.</p>
+                <p class="card-text principal">Estamos trabajando incansablemente para terminar ultimos detalles,
+                    y hacer que LatinoGang sea aún más emocionante. Durante este tiempo, hemos
+                    estado afinando y mejorando la experiencia de juego para ofrecerles algo realmente espectacular
+                    cuando volvamos a abrir nuestras puertas.</p>
+
+                <p class="card-text principal">Lo emocionante es que estamos a punto de zarpar nuevamente en esta
+                    emocionante
+                    aventura Muy muy
+                    pronto. Podrán regresar a nuestro universo lleno de diversión y desafíos, listos para
+                    explorar, competir y crear recuerdos inolvidables junto a amigos y compañeros de juego.</p>
+
+                <p class="card-text principal">Para estar al tanto de todas las novedades y actualizaciones sobre la
+                    reapertura de
+                    LatinoGang
+                    Network, los invitamos a unirse a nuestro servidor de Discord. Allí encontrarán información
+                    exclusiva, anuncios emocionantes y la oportunidad de conectarse con la comunidad.</p>
+
+                <p class="card-text principal">Agradecemos sinceramente su paciencia y apoyo durante este período. Les
+                    aseguramos
+                    que estamos
+                    trabajando arduamente para hacer que su espera valga la pena. Manténganse atentos para más noticias
+                    emocionantes y anuncios sobre nuestro regreso.</p>
+
+                <p class="card-text principal">¡Prepárense para una nueva y emocionante etapa en LatinoGang Network!
+                    Juntos,
+                    continuaremos nuestra
+                    aventura en línea.
+                </p>
+                <p class="card-text atentamente float-start">
+                    Atentamente, Equipo Directivo.</p>
+                <i href="#" class="btn discord btn-primary fa-brands fa-discord fa-fade float-end"> Discord</i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footernormas">
+        <div class="float-start">
+            <img src="./img/logo.png" class="img-fluid logofooter float-start ms-5" style="width: 61%;" alt=""
+                href="./index.html">
+                <p class="copyr">@LatinoGang, Todos los Derechos Reservados</p>
+        </div>
+        <div class="linefooter float-start">.</div>
+        <div class="container">
+            <div class="row footer mx-auto d-flex">
+                <div class="col-md-3 footer mobil">
+                    <h4 class="animatres letramagicafooter">Enlaces Rápidos</h4>
+                    <p class="linenelances mx-auto justify-content-center">.</p>
+                    <a class="enlancescolor" href="./pages/normas.html">
+                        <p class="enlancesbuttonfooter"> <i class="fa-solid fa-book" style="color: #8f5a00;"></i>
+                            Normas</p>
+                    </a>
+                    <a class="enlancescolor" href="./pages/Ranking.html">
+                        <p class="enlancesbuttonfooter"><i class="fa-regular fa-star"
+                                style="color: #fbff00;"></i>Ranking
+                        </p>
+                    </a>
+                    <a class="enlancescolor" href="./pages/Tienda.html">
+                        <p class=" enlancesbuttonfooter"><i class="fa-solid fa-shop" style="color: #ccf5ff;"></i>
+                            Tienda
+                        </p>
+                    </a>
+                    <a class="enlancescolor" href="./pages/Sanciones.html">
+                        <p class=" enlancesbuttonfooter"><i class="fa-solid fa-ban" style="color: #ff0000;"></i>
+                            Sanciones</p>
+                    </a>
+                    <a class="enlancescolor" href="./pages/Apelar.html">
+                        <p class="enlancesbuttonfooter"><i class="fa-solid fa-gavel" style="color: #8f6900;"></i>Apelar
+                        </p>
+                    </a>
+                </div>
+                <div class="col-md-4 footer">
+                    <h4 class="animatres letramagicafooter">Síguenos en las Redes</h4>
+                    <p class="linenelances mx-auto justify-content-center">.</p>
+                    <a href="#"></a>
+                    <p class="enlancesbuttonfooter"><i class="fab fa-facebook" style="color: blue;"></i> Facebook</p>
+                    </a>
+                    <a href="#"></a>
+                    <p class="enlancesbuttonfooter"><i class="fab fa-twitter" style="color: aqua;"></i> Twitter</p></a>
+                    <a href="#"></a>
+                    <p class="enlancesbuttonfooter"><i class="fab fa-instagram" style="color: violet;"></i> Instagram
+                    </p></a>
+                    <a href="#"></a>
+                    <p class="enlancesbuttonfooter"><i class="fab fa-youtube" style="color: red;"></i> YouTube</p></a>
+                </div>
+                <div class="col-md-1 ms-4">
+                    <div class="linefooter">.</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Scripts de Bootstrap (asegúrate de incluir jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+        integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./js/progressbar.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
